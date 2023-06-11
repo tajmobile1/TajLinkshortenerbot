@@ -9,11 +9,11 @@ load_dotenv()
 # Mandatory variables for the bot to start
 API_ID = int(os.getenv("API_ID", "9738903"))
 API_HASH = os.environ.get("API_HASH", "d05599b2b23fd03e208ca54a2ff93445")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5757877293:AAE6MSBoRxhWDLS22CjKInvRVqodqLXc3-g")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6179978223:AAHMsMRxTjNLM1dK5GFb4V-HkoTUsUqFhxY")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("1030188110")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Tajlinkshortner")
-DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://technical:technical@cluster0.qqyb9zi.mongodb.net/?retryWrites=true&w=majority") 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "cluster0")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Autofilter: autofilter@cluster0.1lgwfsl.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "1030188110")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
